@@ -27,7 +27,7 @@
     "add-typedoc-comments": "node ./node_modules/.bin/jscodeshift -t scripts/add-typedoc-comments-transform.js src/generated/**",
     "lint": "eslint 'src/**/*.{js,ts}'",
     "test": "jest",
-    "prepublishOnly": "yarn build"
+    "prepare": "yarn build"
   },
   "dependencies": {
     "axios": "^0.27.2",
